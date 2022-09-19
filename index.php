@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Xdebug and JS</title>
-    <script src="js/script.js"></script>
     <script src="js/newscript.js"></script>
+    <script src="js/script.js"></script>
 </head>
 <body>
 <h1>Xdebug and JS</h1>
@@ -12,8 +12,8 @@
     <input id="field" type="text" name="field">
     <button onclick="main()">Click me</button>
 </form>
-<p>Function test print <script>test(2);</script></p>
-<p>Function test2 print <script>test2(3);</script></p>
+<!--<p>Function test print <script>test(2);</script></p>
+<p>Function test2 print <script>test2(3);</script></p>-->
 <?php
 
 ?>

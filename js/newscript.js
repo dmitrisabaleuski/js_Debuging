@@ -1,4 +1,7 @@
 function main(){
-    let filedvar = getElementById('field');
-    console.log(fieldvar);
+    let fieldvar = document.getElementById('field').value;
+    //fieldvar = Number(fieldvar);
+    alert(fieldvar);
+    test(fieldvar);
+    test2(fieldvar);
 }

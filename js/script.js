@@ -1,9 +1,8 @@
 function test(num){
-    let test = num;
-    document.write(test);
+    alert(num);
 }
 
 function test2(num){
-    let avar = num;
-    document.write(avar);
+    num += 1;
+   alert(num);
 }
